@@ -1,0 +1,159 @@
+.modal-margin{
+    margin-top: 80px;
+}
+.head{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:25px;
+    font-weight: bold;
+    color: rgb(31, 31, 82);
+}
+.subhead{
+    text-align: center;
+    font-weight:bold ;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:18px;
+    color: rgb(157, 157, 158);
+}
+.purchase{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size:22px;
+    color:rgb(31, 31, 82);
+    margin-top: 16px;
+    font-weight: 1538px;
+}
+.warning-alert{
+    color:red;
+    font-family: 'Courier New', Courier, monospace;
+}
+input[type='month']{
+    position: relative;
+}
+/* input[type='month']::before{
+    position: relative;
+    content: 'MM/YY';
+    margin-left: 25px;
+    margin-right: 10px;
+} */
+input[type='month']::-webkit-calendar-picker-indicator{
+    margin:0 10px;
+    position: absolute;
+    left: 0;
+    color: grey;
+}
+input[type='month']::-webkit-datetime-edit{
+    margin-left: 25px;
+    /* display:none; */
+}
+.inputs {
+    background-color: #f2f2f2 !important;
+border-right:none !important;
+
+}
+.inputdata {
+    border-left:none!important;
+    background-color: #f2f2f2 !important;
+}
+input[type="name"]{
+    background-color: #f2f2f2 !important;
+}
+.modal-dialog {
+    max-width: 650px !important;
+
+}
+.modal-content{
+    max-width:100% !important ;
+
+}
+.modal-body {
+    max-width:100%!important;
+
+}
+.btn-primary {
+    color: #fff !important;
+    background-color: #826cdf !important;
+    border-color: #826cdf !important;
+    border-radius: 15px !important;
+    height: 46px !important;
+}
+input[type="name"], input[type="password"], input[type="text"], input[type="number"],input[type="month"] {
+    background-color: #f2f2f2 !important;
+    height: 46px !important;
+    border:none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.input-group-text{
+    border:none !important;
+}
+.custom {
+    width:60% !important;
+}
+/* input[type='checkbox'] {
+    accent-color: #826cdf;
+    width: 21px;
+    height: 17px;
+    border-radius: 50%;
+
+} */
+/* input[type=checkbox] {
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	-o-appearance:none;
+	outline: none;
+	content: none;	
+}
+
+input[type=checkbox]:before {
+	font-family: "FontAwesome";
+    content: "\f00c";
+    color: transparent !important;
+    border: 1px solid rgb(166, 163, 163);
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+input[type=checkbox]:checked:before {
+
+    background: #826cdf;
+	color: white !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+} */
+/* input[type="checkbox"] {
+                
+    clip-path: circle(46% at 50% 50%);    
+  } */
+
+  input[type=checkbox] {
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	-o-appearance:none;
+	outline: none;
+	content: none;
+    	
+}
+
+input[type=checkbox]:before {
+	font-family: "FontAwesome";
+    content: "\f00c";
+    border-radius: 50%;
+    font-size: 10px;
+    color: transparent !important;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(201, 200, 200);
+    margin-right: 7px;
+}
+
+input[type=checkbox]:checked:before {
+
+	color: white !important;
+    background: #826cdf;
+}
